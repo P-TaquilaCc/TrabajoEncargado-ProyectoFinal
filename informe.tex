@@ -306,6 +306,276 @@ en 'Red interna' y damos click en 'Aceptar'.\\
 	\includegraphics[width=12cm]{./Imagenes/21} 
 \end{center}
 
+\begin{itemize}
+\subsection{Instalación de Oracle Database Server}\\
+- En el sistema Operativo que hemos virtualizamos que en este caso es Ubuntu Linux, iniciamos sesion con el respectivo login y contraseña.
+\end{itemize}
 
+\begin{center}
+	\includegraphics[width=10cm]{./Imagenes/22} 
+\end{center}
+
+
+\begin{itemize}
+- Verificamos que tengamos todo los software necesarios para la instalacion de database oracle\\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/23} 
+\end{center}
+
+
+
+\begin{itemize}
+- En el terminal iniciamos como super usuario para no tener problemas luego descomprimimos el oracle en la carpeta que deseamos de la siguiente manera\\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/24} 
+\end{center}
+
+
+\begin{itemize}
+- En el terminal ponemos el siguiente codigo para crear usuarios\\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/25} 
+\end{center}
+
+
+
+\begin{itemize}
+- Para poder crear usuario para el oracle ponemos que siguiente codigo en el terminal y ponemos la contraseña que deseamos\\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/26} 
+\end{center}
+
+\begin{itemize}
+- Abrimos otro terminal y ponemos el siguiente codigo\\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/27} 
+\end{center}
+
+
+\begin{itemize}
+- Para poder corregir el error ponemos lo siguiente\\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/28} 
+\end{center}
+
+
+\begin{itemize}
+- Para instalar los paquetes necesarios usamos el siguiente comando\\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/29} 
+\end{center}
+
+
+\begin{itemize}
+- Luego el siguiente comando\\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/30} 
+\end{center}
+
+
+\begin{itemize}
+- Despues ponemos la siguiente linea de codigo y damos en la opcion si\\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/31} 
+\end{center}
+
+
+\begin{itemize}
+- Para dar permisos a oinstall para acceder a la instalacion de oracle ponemos el siguiente comando\\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/32} 
+\end{center}
+
+
+
+
+\begin{itemize}
+- Para dar acceso a xhost\\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/33} 
+\end{center}
+
+
+\begin{itemize}
+- Para linkear a binarios y librerias\\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/34} 
+\end{center}
+
+
+\begin{itemize}
+- luego el siguiente comando\\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/35} 
+\end{center}
+
+
+\begin{itemize}
+- Para crear el directorio que contradrá oracle\\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/36} 
+\end{center}
+
+
+
+\begin{itemize}
+- Para agregar los parametros del kernel entramos al siguiente archivo nano/etc/sysctl.conf, debe quedar de la siguiente manera\\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/37} 
+\end{center}
+
+
+\begin{itemize}
+- Para configurar los parametros del usuario de oracle nos dirigimos a /etc/security/limits.conf, debe quedar de la siguiente manera\\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/38} 
+\end{center}
+
+
+\begin{itemize}
+- Para agregar las rutas de oracle (iniciamos como usuario oracle), nos dirigimos al siguiente archivo, debe quedar de la siguiente manera\\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/39} 
+\end{center}
+
+
+
+\begin{itemize}
+- Cargamos los nuevos parametros del kernel\\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/40} 
+\end{center}
+
+
+
+\begin{itemize}
+- Para cargar la nueva configuracion de .bashrc\\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/42} 
+\end{center}
+
+
+\begin{itemize}
+- Para empezar la instalacion ejecutamos el siguiente comando\\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/43} 
+\end{center}
+
+
+\begin{itemize}
+- Se abrirá el menú de instalación, escribiremos un correo y desmarcaremos el check, presionamos siguiente \\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/44} 
+\end{center}
+
+
+\begin{itemize}
+- Luego nos mostrará la siguiente imagen y selecciamos la primera opción  \\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/45} 
+\end{center}
+
+\begin{itemize}
+- Dejamos la opción marcado por defecto \\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/46} 
+\end{center}
+
+\begin{itemize}
+- En este paso dejamos marcado la opción por defecto, presionamos continuar \\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/47} 
+\end{center}
+
+
+\begin{itemize}
+- Una vez llegado a este paso, tendremos que llenar datos necesarios para continuar \\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/48} 
+\end{center}
+
+\begin{itemize}
+- Marcamos la casilla que esta en la esquina superior derecha, hacemos click en continuar \\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/49} 
+\end{center}
+
+\begin{itemize}
+- Al terminar la instalación nos mostrará esta imagen \\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/50} 
+\end{center}
+
+
+\begin{itemize}
+- Luego nos mostrará una ventan, cambiamos de usuario a root y copiamos las dos rutas en una terminal \\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/51} 
+\end{center}
+
+
+\begin{itemize}
+- Por ultimo abrimos un navegador, ponemos la siguiente dirección para poder ingresar al gestor de base de datos oracle \\
+\end{itemize}
+
+\begin{center}
+	\includegraphics[width=12cm]{./Imagenes/52} 
+\end{center}
 
 \end{document}

@@ -8,3 +8,4 @@
 \contentsline {subsection}{\numberline {3.1}Instalaci\IeC {\'o}n del Hyper-V}{1}
 \contentsline {subsection}{\numberline {3.2}Configuraci\IeC {\'o}n del Hyper-V}{2}
 \contentsline {subsection}{\numberline {3.3}Creaci\IeC {\'o}n de la maquina virtual Ubuntu en Hyper-V}{3}
+\contentsline {subsection}{\numberline {3.4}Instalaci\IeC {\'o}n de Oracle Database Server}{9}
